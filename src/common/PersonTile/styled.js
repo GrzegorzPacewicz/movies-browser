@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { borderRadius, boxShadow } from "../../core/theme";
-import NoProfile from "../../images/no-profile-image.svg";
+import NoProfile from "../images/no-profile-image.svg";
 
 export const TileContainer = styled.div`
   padding: 16px;
@@ -44,7 +44,7 @@ export const PersonPhoto = styled.img`
   background-position: center;
   background-repeat: no-repeat;
   color: ${({ theme }) => theme.color.white};
-  aspect-ratio: 2/3;
+  aspect-ratio: 3/4;
   object-fit: cover;
 `;
 

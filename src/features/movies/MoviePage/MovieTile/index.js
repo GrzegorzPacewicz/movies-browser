@@ -17,7 +17,7 @@ import {
   Tags,
   Votes,
 } from "./styled";
-import star from "../../../../images/star.svg";
+import star from "../../../../common/images/star.svg";
 import { formatDate } from "../../../utilities";
 import { APIImageUrl } from "../../../dataAPI";
 

@@ -80,7 +80,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## External Sources
 
-[![tmdb.svg](/src/images/tmdb.svg)](https://www.themoviedb.org/)
+[![tmdb.svg](/src/common/images/tmdb.svg)](https://www.themoviedb.org/)
 
 This project uses API provided by [**The Movie Database**](https://www.themoviedb.org/). In order to use this API, you have to firstly create an account and generate your personal API key.
 

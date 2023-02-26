@@ -1,11 +1,11 @@
 import { Link, NavLink } from "react-router-dom";
 import styled from "styled-components";
-import { ReactComponent as Camera } from "../../images/camera.svg";
+import { ReactComponent as Camera } from "../images/camera.svg";
 
 export const Wrapper = styled.header`
   background-color: ${({ theme }) => theme.color.woodsmoke};
   position: sticky;
-  top: 0px;
+  top: 0;
   z-index: 10;
 `;
 
@@ -82,7 +82,7 @@ export const LogoIcon = styled(Camera)`
 `;
 
 export const LogoTitle = styled.p`
-  margin: 0px 24px 0 16px;
+  margin: 0 24px 0 16px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.small}px) {
     align-self: flex-end;

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { ReactComponent as Error } from "../../images/error.svg";
+import { ReactComponent as Error } from "../images/error.svg";
 import { borderRadius } from "../../core/theme";
 
 export const Wrapper = styled.div`

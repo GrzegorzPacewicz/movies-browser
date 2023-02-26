@@ -15,7 +15,7 @@ import {
   TileContainer,
   Votes,
 } from "./styled";
-import star from "../../images/star.svg";
+import star from "../images/star.svg";
 import { useSelector } from "react-redux";
 import { APIImageUrl } from "../../features/dataAPI";
 import { selectGenres } from "../../features/genresSlice";

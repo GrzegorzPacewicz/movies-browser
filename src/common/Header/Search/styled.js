@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as Search } from "../../../images/search.svg";
+import { ReactComponent as Search } from "../../images/search.svg";
 
 export const SearchBar = styled.div`
   width: 432px;

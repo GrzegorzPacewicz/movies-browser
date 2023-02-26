@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { borderRadius, boxShadow, hoverBoxShadow } from "../../core/theme";
-import { ReactComponent as NoPoster } from "../../images/no-poster-image.svg";
+import { ReactComponent as NoPoster } from "../images/no-poster-image.svg";
 
 export const TileContainer = styled.div`
   background: ${({ theme }) => theme.color.white};

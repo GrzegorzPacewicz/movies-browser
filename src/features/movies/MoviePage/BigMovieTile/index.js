@@ -9,7 +9,7 @@ import {
   Title,
   Votes,
 } from "./styled";
-import star from "../../../../images/star.svg";
+import star from "../../../../common/images/star.svg";
 import { APIImageUrl } from "../../../dataAPI";
 
 const BigMovieTile = ({ poster, title, voteCount, voteAverage }) => {
